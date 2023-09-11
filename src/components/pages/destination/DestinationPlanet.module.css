@@ -1,0 +1,48 @@
+.heading {
+  color: #fff;
+  font-family: Bellefair;
+  font-size: 100px;
+  font-weight: 400;
+}
+
+.container {
+  display: flex;
+}
+
+.textBlock {
+  margin-left: 268px;
+  margin-top: 5px;
+}
+
+.text {
+  margin-top: 8px;
+  width: 444px;
+  height: 182px;
+  color: #d0d6f9;
+  font-family: Barlow;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
+  border-bottom: solid 1px;
+  border-color: #383b4b;
+}
+
+.travelInfo {
+  display: flex;
+  margin-top: 28px;
+  color: #d0d6f9;
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: 2.362px;
+}
+
+.infoTextContainer {
+  margin-right: 80px;
+}
+
+.infoNumbers {
+  font-family: Bellefair;
+  margin-top: 12px;
+  font-size: 28px;
+}

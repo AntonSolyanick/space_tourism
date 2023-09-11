@@ -1,38 +1,71 @@
-.App {
-  text-align: center;
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Barlow Condensed", sans-serif;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.active {
+  border-bottom: solid 3px rgba(255, 255, 255);
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+ul {
+  list-style-type: none;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.link {
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 400;
+  color: #fff;
+  border-top: solid 3px rgba(255, 255, 255, 0);
+  border-bottom: solid 3px rgba(255, 255, 255, 0);
 }
 
-.App-link {
-  color: #61dafb;
+.link:hover {
+  border-bottom: solid 3px rgba(255, 255, 255, 0.5021);
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.background {
+  background-size: cover;
+  position: absolute;
+  top: 0;
+  min-width: 100%;
+  min-height: 100%;
+  z-index: -10;
+}
+
+.mainSection {
+  justify-content: space-between;
+  margin-top: 135px;
+  margin-left: 166px;
+}
+
+.heading {
+  width: 385px;
+  color: #fff;
+  font-family: Barlow Condensed;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 4.725px;
+}
+
+.headingNumber {
+  color: #fff;
+  font-weight: 700;
+  opacity: 0.25;
+  margin-right: 28px;
+}
+
+.text {
+  margin-top: 27px;
+  width: 444px;
+  height: 182px;
+  color: #d0d6f9;
+  font-family: Barlow;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
 }

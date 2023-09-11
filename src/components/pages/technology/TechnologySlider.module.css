@@ -1,0 +1,59 @@
+.container {
+  display: flex;
+}
+
+.terminology {
+  margin-top: 130px;
+  color: #d0d6f9;
+  font-family: Barlow Condensed;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 2.7px;
+}
+
+.title {
+  margin: top 10px;
+  color: #fff;
+  font-family: Bellefair;
+  font-size: 56px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.image {
+  position: absolute;
+  right: 0;
+}
+
+.dotsContainer {
+  margin-top: 130px;
+  margin-right: 80px;
+}
+
+.dot {
+  font-family: Bellefair;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 400;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 30px;
+  width: 80px;
+  height: 80px;
+  border-radius: 80px;
+  border: solid 1px rgb(255, 255, 255, 0.25);
+}
+
+.active {
+  color: #0b0d17;
+  background-color: #fff;
+}
+
+:hover .dot {
+  cursor: pointer;
+}

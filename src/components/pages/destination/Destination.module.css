@@ -1,0 +1,27 @@
+.backgroundImage {
+  background-image: url("../../../assets/destination/background-destination-desktop.jpg");
+}
+
+.sectionPlanets {
+  justify-content: space-between;
+  margin-top: 135px;
+  margin-left: 166px;
+}
+
+.heading {
+  width: 385px;
+  color: #fff;
+  font-family: Barlow Condensed;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 4.725px;
+}
+
+.headingNumber {
+  color: #fff;
+  font-weight: 700;
+  opacity: 0.25;
+  margin-right: 28px;
+}

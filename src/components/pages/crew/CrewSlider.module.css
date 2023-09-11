@@ -1,0 +1,55 @@
+.jobTitle {
+  margin-top: 154px;
+  color: #fff;
+  font-family: Bellefair;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  opacity: 0.5042;
+}
+
+.name {
+  margin-top: 15px;
+  color: #fff;
+  font-family: Bellefair;
+  font-size: 56px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: uppercase;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.dotsContainer {
+  display: flex;
+  justify-content: space-between;
+  width: 132px;
+  margin-top: 60px;
+}
+
+.dot {
+  width: 15px;
+  height: 15px;
+  border-radius: 15px;
+  background-color: white;
+  opacity: 0.25;
+}
+
+.active {
+  opacity: 1;
+}
+
+.image {
+  position: absolute;
+  left: 900px;
+  bottom: 0;
+}
+
+:hover .dot {
+  cursor: pointer;
+}
