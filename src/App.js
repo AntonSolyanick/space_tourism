@@ -19,7 +19,7 @@ function App() {
           path="/"
           element={<Navigate replace={true} to="/home"></Navigate>}
           exact
-        ></Route>
+        />
         <Route path="/home" element={<Home />} exact />
         <Route path="/destination/*" element={<Destination />}>
           <Route path="" element={<Moon />} />;
