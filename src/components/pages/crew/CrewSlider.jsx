@@ -10,7 +10,7 @@ const CrewSlider = ({ sliderData }) => {
 
   return (
     <section className={classes.container}>
-      <div>
+      <div className={classes.sliderTextBlock}>
         <p className={classes.jobTitle}>{sliderData[currentSlide].jobTitle}</p>
         <p className={classes.name}>{sliderData[currentSlide].name}</p>
         <p className="text">{sliderData[currentSlide].description}</p>
@@ -34,7 +34,6 @@ const CrewSlider = ({ sliderData }) => {
         height={sliderData[currentSlide].imageHeight}
         alt={sliderData.name}
       ></img>
-      {console.log(currentSlide)}
     </section>
   );
 };

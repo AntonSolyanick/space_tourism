@@ -1,5 +1,7 @@
-import { Route, Routes, Navigate } from "react-router-dom";
+import { Route, Routes } from "react-router-dom";
+import { useState } from "react";
 
+import { Context } from "./context";
 import Layout from "./components/layout/Layout";
 import Home from "./components/pages/Home";
 import Destination from "./components/pages/destination/Destination";
@@ -12,26 +14,32 @@ import Technology from "./components/pages/technology/Technology";
 import "./App.css";
 
 function App() {
+  const [isBurgerActive, setIsBurgerActive] = useState(false);
+
+  const burgerStateHandler = (prevState) => {
+    setIsBurgerActive((prevState) => !prevState);
+  };
+
   return (
-    <Layout>
-      <Routes>
-        <Route
-          path="/"
-          element={<Navigate replace={true} to="/home"></Navigate>}
-          exact
-        />
-        <Route path="/home" element={<Home />} exact />
-        <Route path="/destination/*" element={<Destination />}>
-          <Route path="" element={<Moon />} />;
-          <Route path="moon" element={<Moon />} />;
-          <Route path="mars" element={<Mars />} />;
-          <Route path="europa" element={<Europa />} />;
-          <Route path="titan" element={<Titan />} />;
-        </Route>
-        <Route path="/crew/*" element={<Crew />} exact />
-        <Route path="/technology/*" element={<Technology />} exact />
-      </Routes>
-    </Layout>
+    <Context.Provider
+      value={{ isBurgerActive, burgerStateHandler, setIsBurgerActive }}
+    >
+      <Layout>
+        <Routes>
+          <Route path="/" element={<Home />} exact />
+          <Route path="/home" element={<Home />} exact />
+          <Route path="/destination/*" element={<Destination />}>
+            <Route path="" element={<Moon />} />;
+            <Route path="moon" element={<Moon />} />;
+            <Route path="mars" element={<Mars />} />;
+            <Route path="europa" element={<Europa />} />;
+            <Route path="titan" element={<Titan />} />;
+          </Route>
+          <Route path="/crew/*" element={<Crew />} exact />
+          <Route path="/technology/*" element={<Technology />} exact />
+        </Routes>
+      </Layout>
+    </Context.Provider>
   );
 }
 

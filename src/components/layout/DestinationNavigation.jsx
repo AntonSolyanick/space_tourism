@@ -9,9 +9,11 @@ const DestinationNavigation = () => {
     <>
       <ul className={classes.destinationLinks}>
         {destinationLinks.map((link) => (
-          <NavLink key={link} className="link" to={`${link}`}>
-            {link.toUpperCase()}
-          </NavLink>
+          <li key={link}>
+            <NavLink className="link" to={`${link}`}>
+              {link.toUpperCase()}
+            </NavLink>
+          </li>
         ))}
       </ul>
     </>

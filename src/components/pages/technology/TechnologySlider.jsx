@@ -1,6 +1,7 @@
 import { useState } from "react";
 
 import classes from "./TechnologySlider.module.css";
+import "../../../App.css";
 
 const TechnologySlider = ({ sliderData }) => {
   const [currentSlide, setCurrentSlide] = useState(0);
@@ -36,7 +37,6 @@ const TechnologySlider = ({ sliderData }) => {
         height={sliderData[currentSlide].imageHeight}
         alt={sliderData.name}
       ></img>
-      {console.log(currentSlide)}
     </section>
   );
 };

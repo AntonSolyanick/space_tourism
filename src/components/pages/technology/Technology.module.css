@@ -1,3 +1,10 @@
 .backgroundImage {
   background-image: url("../../../assets/technology/background-technology-desktop.jpg");
+  background-size: cover;
+}
+
+@media (max-width: 1100px) {
+  .backgroundImage {
+    background-image: url("../../../assets/technology/background-technology-mobile.jpg");
+  }
 }

@@ -4,7 +4,13 @@ import imageEuropa from "../../../assets/destination/image-europa.png";
 const Europa = () => {
   return (
     <div className={classes.container}>
-      <img src={imageEuropa} width="445" height="445" alt="europa"></img>
+      <img
+        className={classes.planetImage}
+        src={imageEuropa}
+        width="445"
+        height="445"
+        alt="europa"
+      ></img>
       <div className={classes.textBlock}>
         <h3 className={classes.heading}>EUROPA</h3>
         <p className={classes.text}>

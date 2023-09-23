@@ -4,7 +4,13 @@ import imageTitan from "../../../assets/destination/image-titan.png";
 const Titan = () => {
   return (
     <div className={classes.container}>
-      <img src={imageTitan} width="445" height="445" alt="titan"></img>
+      <img
+        className={classes.planetImage}
+        src={imageTitan}
+        width="445"
+        height="445"
+        alt="titan"
+      ></img>
       <div className={classes.textBlock}>
         <h3 className={classes.heading}>TITAN</h3>
         <p className={classes.text}>

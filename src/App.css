@@ -4,25 +4,27 @@
   font-family: "Barlow Condensed", sans-serif;
 }
 
-.active {
-  border-bottom: solid 3px rgba(255, 255, 255);
-}
-
 ul {
   list-style-type: none;
 }
 
 .link {
   text-decoration: none;
+  padding-bottom: 10px;
   font-size: 16px;
   font-weight: 400;
   color: #fff;
+
   border-top: solid 3px rgba(255, 255, 255, 0);
   border-bottom: solid 3px rgba(255, 255, 255, 0);
 }
 
 .link:hover {
   border-bottom: solid 3px rgba(255, 255, 255, 0.5021);
+}
+
+.active {
+  border-bottom: solid 3px rgba(255, 255, 255);
 }
 
 .background {
@@ -68,4 +70,42 @@ ul {
   font-style: normal;
   font-weight: 400;
   line-height: 32px;
+}
+
+@media (max-width: 1100px) {
+  .link:hover {
+    border-bottom: solid 3px rgba(255, 255, 255);
+  }
+
+  .link {
+    padding-bottom: 5px;
+  }
+
+  .heading {
+    margin-top: 89px;
+
+    width: auto;
+    font-size: 16px;
+    letter-spacing: 2.7px;
+  }
+
+  .headingNumber {
+    margin-right: 18px;
+  }
+
+  .mainSection {
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+    margin: 0;
+  }
+
+  .text {
+    margin-top: 16px;
+    width: 327px;
+    height: auto;
+    font-size: 15px;
+    line-height: 25px;
+  }
 }

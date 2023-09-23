@@ -4,7 +4,13 @@ import imageMoon from "../../../assets/destination/image-moon.png";
 const Moon = () => {
   return (
     <div className={classes.container}>
-      <img src={imageMoon} width="445" height="445" alt="moon"></img>
+      <img
+        className={classes.planetImage}
+        src={imageMoon}
+        width="445"
+        height="445"
+        alt="moon"
+      ></img>
       <div className={classes.textBlock}>
         <h3 className={classes.heading}>MOON</h3>
         <p className={classes.text}>

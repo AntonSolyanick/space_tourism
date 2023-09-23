@@ -6,3 +6,12 @@
   margin-left: 712px;
   margin-top: 34px;
 }
+
+@media (max-width: 1100px) {
+  .destinationLinks {
+    width: 237px;
+    margin: 0;
+    margin-top: 330px;
+    position: absolute;
+  }
+}
