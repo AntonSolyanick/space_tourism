@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/space_tourism/static/css/main.8e9144d9.css",
-    "main.js": "/space_tourism/static/js/main.bba567de.js",
+    "main.css": "/space_tourism/static/css/main.7889c74f.css",
+    "main.js": "/space_tourism/static/js/main.4b2ae536.js",
     "static/js/787.e5372b0f.chunk.js": "/space_tourism/static/js/787.e5372b0f.chunk.js",
     "static/media/image-victor-glover.png": "/space_tourism/static/media/image-victor-glover.8a9a5424588b73ec61c2.png",
     "static/media/image-anousheh-ansari.png": "/space_tourism/static/media/image-anousheh-ansari.2d647128496ddc638acd.png",
@@ -18,13 +18,15 @@
     "static/media/background-technology-desktop.jpg": "/space_tourism/static/media/background-technology-desktop.b7b589b3c0c5ef0811d4.jpg",
     "static/media/image-space-capsule-portrait.jpg": "/space_tourism/static/media/image-space-capsule-portrait.dd0ac138afef98c1666a.jpg",
     "static/media/image-launch-vehicle-portrait.jpg": "/space_tourism/static/media/image-launch-vehicle-portrait.0c758955a178bdcc3230.jpg",
+    "static/media/background-home-mobile.jpg": "/space_tourism/static/media/background-home-mobile.13f7adecbcb3c3f170d8.jpg",
+    "static/media/background-destination-mobile.jpg": "/space_tourism/static/media/background-destination-mobile.e0131e27e751ead1a922.jpg",
     "index.html": "/space_tourism/index.html",
-    "main.8e9144d9.css.map": "/space_tourism/static/css/main.8e9144d9.css.map",
-    "main.bba567de.js.map": "/space_tourism/static/js/main.bba567de.js.map",
+    "main.7889c74f.css.map": "/space_tourism/static/css/main.7889c74f.css.map",
+    "main.4b2ae536.js.map": "/space_tourism/static/js/main.4b2ae536.js.map",
     "787.e5372b0f.chunk.js.map": "/space_tourism/static/js/787.e5372b0f.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.8e9144d9.css",
-    "static/js/main.bba567de.js"
+    "static/css/main.7889c74f.css",
+    "static/js/main.4b2ae536.js"
   ]
 }
